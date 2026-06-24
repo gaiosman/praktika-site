@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Главная страница</title>
+    <script src="js/animation.js" defer></script>
+</head>
+<body>
+
+    <header class="main-header">
+
+        <div class="main-header__image">
+
+        </div>
+
+        <div class="header-bar">
+            <div class="header-bar__container container">
+                
+                <div class="header-bar__branding">
+                    <img src="icons/logo.svg" alt="Логотип ЦОК" class="header-bar__logo">
+                    <span class="header-bar__title">ЦОК ГУ Московской области Российской Федерации</span>
+                </div>
+
+                <button class="header-bar__burger" aria-label="Открыть меню">
+                    <span class="header-bar__burger-line"></span>
+                </button>
+                
+                <nav class="header-menu">
+                    <ul class="header-menu__list">
+
+                        <li class="header-menu__item">
+                            <a href="main.html" class="header-menu__link header-menu__link-active">Главная</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="1.html" class="header-menu__link">О нас</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="2.html" class="header-menu__link">Афиша</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">Кино</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">Услуги</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">Библиотека</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="first-content anim-items">
+
+
+         <div class="promo-slider container">
+            
+            <div class="promo-slider__preview">
+                <img src="img/image1.png" alt="Выступление на сцене" class="promo-slider__image">
+            </div>
+            
+            <div class="promo-slider__content">
+                <h1 class="promo-slider__title">Предстоящий концерт</h1>
+                <p class="promo-slider__text">
+                    Сегодня пройдет замечательное выступление от нашей небезысветсной певицы которая уже не первый раз покоряет наши сердца....
+                </p>
+            </div>
+            
+
+            <div class="promo-slider__pagination slider-dots">
+                <button class="slider-dots__item slider-dots__item--active" aria-label="Слайд 1"></button>
+                <button class="slider-dots__item" aria-label="Слайд 2"></button>
+                <button class="slider-dots__item" aria-label="Слайд 3"></button>
+                <button class="slider-dots__item" aria-label="Слайд 4"></button>
+            </div>
+            
+        </div>
+
+        
+
+    </section>
+
+
+    <section class="services anim-items">
+        <div class="container">
+
+            <h2 class="services__greeting">Клуб дом офицеров приветствует вас!</h2>
+            <p class="services__subtitle">Что вас интересует?</p>
+
+            <div class="services__grid">
+                <a href="#" class="services__card category-card">
+                    <div class="category-card__preview">
+                        <img src="img/card1.png" alt="Концерты" class="category-card__image">
+                    </div>
+                    <div class="category-card__footer">
+                        <span class="category-card__title">Концерты</span>
+                    </div>
+                </a>
+
+                <a href="#" class="services__card category-card">
+                    <div class="category-card__preview">
+                        <img src="img/card2.png" alt="Кружки" class="category-card__image">
+                    </div>
+                    <div class="category-card__footer">
+                        <span class="category-card__title">Кружки</span>
+                    </div>
+                </a>
+
+                <a href="#" class="services__card category-card">
+                    <div class="category-card__preview">
+                        <img src="img/card3.png" alt="Банкетный зал" class="category-card__image">
+                    </div>
+                    <div class="category-card__footer">
+                        <span class="category-card__title">Банкетный зал</span>
+                    </div>
+                </a>
+
+                <a href="#" class="services__card category-card">
+                    <div class="category-card__preview">
+                        <img src="img/card4.png" alt="Бильярдная" class="category-card__image">
+                    </div>
+                    <div class="category-card__footer">
+                        <span class="category-card__title">Бильярдная</span>
+                    </div>
+                </a>
+
+                <a href="#" class="services__card category-card">
+                    <div class="category-card__preview">
+                        <img src="img/card5.png" alt="Тренажерный зал" class="category-card__image">
+                    </div>
+                    <div class="category-card__footer">
+                        <span class="category-card__title">Тренажерный зал</span>
+                    </div>
+                </a>
+
+                <a href="#" class="services__card category-card">
+                    <div class="category-card__preview">
+                        <img src="img/card6.png" alt="Мероприятия" class="category-card__image">
+                    </div>
+                    <div class="category-card__footer">
+                        <span class="category-card__title">Мероприятия</span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>    
+
+
+
+    <footer class="main-footer">
+        <div class="container main-footer__container">
+
+            <div class="main-footer__top">
+                <div class="main-footer__promo">
+                    <p class="main-footer__text">
+                        Остались вопросы?<br>
+                        Отсканируй этот QR - код, чтобы попасть в наше сообщество Telegram и быть всегда в курсе событий!
+                    </p>
+                </div>
+                
+                <div class="main-footer__qr-block">
+                    <img src="img/qr.png" alt="Telegram QR-код" class="main-footer__qr-image">
+                </div>
+            </div>
+
+            <nav class="main-footer__nav footer-menu">
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item"><a href="https://www.google.com/maps/@56.3801938,37.9179816,16z?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D" class="footer-menu__link">Где мы?</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Антикоррупция</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Просьбы и пожелания</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Вопросы и ответы</a></li>
+                </ul>
+            </nav>
+
+            <div class="main-footer__bottom">
+                <small class="main-footer__copyright">ЦОК ГУ Дом Офицеров Сергиев Посад, 2025© Все права защищены. Тел.: +7495456265 | 71gdo@mail.ru</small>
+            </div>
+
+        </div>
+    </footer>    
+    
+</body>
+</html>
